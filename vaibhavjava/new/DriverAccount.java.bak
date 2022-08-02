@@ -1,0 +1,19 @@
+class DriverAccount
+{
+public static void main(String[]args)
+{
+SavingsAccount a=new SavingsAccount("abx",123654,"sbin001",1200);
+LoanAccount a1=new LoanAccount("asx",45632,"sbbin002",1200,1500,25000);
+System.out.println(a.name);
+System.out.println(a.acno);
+System.out.println(a.ifsc);
+System.out.println(a.bal);
+System.out.println("***************************************");
+System.out.println(a1.name);
+System.out.println(a1.acno);
+System.out.println(a1.ifsc);
+System.out.println(a1.amount);
+System.out.println(a1.emi);
+System.out.println(a1.interest);
+}
+}

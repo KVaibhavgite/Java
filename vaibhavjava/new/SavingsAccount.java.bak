@@ -1,0 +1,9 @@
+class SavingsAccount extends Account
+{
+double bal;
+SavingsAccount(String name,long acno,string ifsc,double bal)
+{
+super(name,acno,ifsc);
+this.bal=bal;
+}
+}

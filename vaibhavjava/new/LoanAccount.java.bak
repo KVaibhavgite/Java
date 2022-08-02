@@ -1,0 +1,13 @@
+class LoanAccount extends Account
+{
+double amount;
+double emi;
+double interest;
+loanAccount(String name,long acno,String ifsc,double amount,double emi,double interest)
+{
+super(name,acno,ifsc);
+this.amount=amount;
+this.emi=emi;
+this.interest=interest;
+}
+}

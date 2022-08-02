@@ -1,0 +1,15 @@
+class A
+{
+	{
+		System.out.println("hi kvg");
+	}
+	static 
+	{
+		System.out.println("hi vaibhav");
+	}
+	public static void main(String[]args)
+	{
+		A r=new A();
+		
+	}
+}

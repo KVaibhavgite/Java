@@ -1,0 +1,84 @@
+import java.util.Scanner;
+class main extends ui
+{
+		Scanner sc=new Scanner(System.in);
+		String user_input=sc.next();
+		String user_pass=sc.next();
+		main(String user_input,String user_pass)
+	{
+		this.user_input=user_input;
+		this.user_pass=user_pass;
+	}
+	void login()
+		{
+		
+		/*private String user_input;
+		private String user_pass;
+		public String getuser_input()
+			{
+				return user_input;
+			}
+		public void setuser_input(String user_input)
+			{
+				this.user_input=user_input;
+			}
+		public String getuser_pass()
+			{
+				return user_pass;
+			}
+		public void setuser_pass(String user_pass)
+			{
+				this.user_pass=user_pass;
+			}*/
+		if(user_input.equals(user_input))
+			{
+				if(user_pass.equals(user_pass))
+				{
+					System.out.println("your username and passward is valid");
+				}
+				else
+				{
+					System.out.println("your  passward is invalid");
+				}
+			}
+		else
+			{
+				System.out.println("you enter username and passward is invalid");
+			}
+		System.out.println("enter the valid username:-"+user_input);
+		System.out.println("enter the valid passward:-"+user_pass);
+		}
+	 void logout()
+		 {
+		   System.out.println("your account is log out successfully");
+		  // this.login=login();
+		 }
+	 void forgotpassward()
+		 {
+		   // this.login=login;
+			System.out.println("Enter the your username:-");
+			if(user_input.equals(user_input))
+			 {
+				System.out.println("enter username is correct");
+				//user_input.setuser_input(user_pass);
+				//this.login=login;
+				System.out.println("successfully change the passward");
+
+
+			 }
+			 else
+			 {
+				 System.out.println("Wrong username is enter");
+			 }
+		 }
+	 void create_new()
+		 {
+			System.out.println("your are new user then set username and passward");
+			//this.login=login;
+			//user_input.setuser_input(user_input);
+			//user_input.setuser_input(user_pass);
+			System.out.println("it is successfully create account");
+			//this.login=login;
+
+		 }
+}

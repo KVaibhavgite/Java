@@ -1,0 +1,3 @@
+class main1 { public static void main (sting[]args)
+	{syteam .out println ;"hello world";
+}}

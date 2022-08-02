@@ -1,0 +1,45 @@
+import java.util.Scanner;
+class Test
+{
+	int a;
+	Test(int a)
+		{
+		this.a=a;
+	}
+	void show()
+		{
+		System.out.println("a:- "+a);
+	}
+	void show1()
+		{
+		System.out.println("a:- "+a);
+	}
+	void show2()
+		{
+		System.out.println("a:- "+a);
+	}
+	void show3()
+		{
+		System.out.println("a:- "+a);
+	}
+	void show4()
+		{
+		System.out.println("a:- "+a);
+	}
+	public static void main(String[]args)
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter the value");
+		int num=s.nextInt();
+		Test r=new Test(num);
+		do{
+		r.show();
+		num++;
+		}
+		while(num<5);
+		r.show1();
+		r.show2();
+		r.show3();
+		r.show4();
+	}
+}

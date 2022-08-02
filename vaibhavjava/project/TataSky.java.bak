@@ -1,0 +1,47 @@
+import java.util.Scanner;
+import java.util.*;
+class TataSky
+{
+public static void main(String[]args)
+{
+Scanner scan=new Scanner(System.in);
+System.out.println("Enter 0 for Rechrge");
+System.out.println("Enter 1 for Language");
+System.out.println("Enter 2 for new Registration");
+int n=scan.nextInt();
+switch (n)
+{
+case 0:
+      {
+      interface Recharge
+      {
+      public void addMoney();
+      }
+	  break;
+      }
+case 1:
+      {
+      interface Language
+      {
+      public void changeLanguage();
+      }
+	  break;
+      }
+case 2:
+       {
+       interface newRegistration
+       {
+       public void newRegistration();
+       }
+	   break;
+       }
+default:
+	    {
+	    System.out.println("This is a Wrong choose");
+        System.out.println("_____________Thank You______________");
+		break;
+		}
+
+}
+}
+}
