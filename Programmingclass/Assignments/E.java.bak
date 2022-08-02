@@ -1,0 +1,23 @@
+/*Design a method which accept 2number and count its the Odd number between 
+those 2numbers using recursion call*/
+class E
+{
+static int count=0; 
+public static int printOddNumber(int m,int n)
+{
+if(m<=n)
+	{
+	printOddNumber(m,n-1);
+	if(n%2!=0)
+      {
+		count++;
+	  }
+	}	
+	return count;
+}
+public static void main(String[]args)
+{
+	 printOddNumber(1,13);
+	System.out.println(count);
+}
+}

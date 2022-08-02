@@ -1,0 +1,21 @@
+/* WAJP to count the digit in a number .
+    1. number=123456
+     o/p=6
+     2.number=123
+      o/p=3         */
+      class CountDigits
+      {
+      public static void main(String[]args)
+      {
+      int count=0;
+      int num=123456;
+      while(num!=0)
+      {
+      num=num/10;
+      count++;
+      }
+      System.out.println(count);
+      }
+      }
+
+

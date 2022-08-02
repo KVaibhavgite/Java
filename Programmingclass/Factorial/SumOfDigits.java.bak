@@ -1,0 +1,20 @@
+/* WAJP to print the sum of digit in a number.
+ex.1. number=12345
+      o/p=12
+ex.2. number=5678
+      o/p=27      */
+class SumOfDigits
+{
+public static void main(String[]args)
+{
+int num=12345;
+int sum=0;
+while(num!=0)
+{
+int digit=num%10;
+sum=sum+digit;
+num=num/10;
+}
+System.out.println(sum);
+}
+}

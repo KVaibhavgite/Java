@@ -1,0 +1,20 @@
+/* design a method whic can accept  anumber and retun ture if the number is even and false if the number is odd*/
+class EvenorOddReturn
+{
+public static boolean evenOrOdd(int num)
+{
+return num%2==0;
+}
+public static void main(String[]args)
+{
+int num=67;
+    if(evenOrOdd(num));
+	{
+     System.out.println(num+"is even");
+	}
+     else
+	{
+    System.out.println(num+"is odd");
+    }
+}
+}

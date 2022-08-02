@@ -1,0 +1,11 @@
+class DecisionIfEven1
+{
+public static void main(String[]args)
+{
+int num=66;
+if (num%2==0)
+{
+System.out.println(num);//66
+}
+}
+}

@@ -1,0 +1,23 @@
+class Q1    /*Design a method which accept 2number and count odd no between 
+           those 2 numbers using recursion call*/ 
+{
+	public static void main(String[] args) 
+	{
+		print(20,40);
+	}
+	public static void print(int a,int b) 
+	{
+		if (count<=10)
+		{
+		if (b%a==0)
+		{
+          System.out.println(count);
+		  count++;
+		}
+		//print(a,b);
+
+		}
+		print(a,b);
+
+	}
+}

@@ -1,0 +1,40 @@
+/*design a method can accept a number and return the revers of a number.*/
+class Palindrome1
+{
+public static boolean printnum(int num)
+{
+int temp=num;
+int rev=0;
+while(temp!=0)
+{
+rev=rev*10+temp%10;
+temp=temp/10;
+}
+if(num==rev)
+{
+//System.out.println(num+"  is palindrome");
+return true;
+}
+else
+{
+//System.out.println(num+"  is  Not palindrome");
+return false;
+}
+//return rev;
+
+}
+public static void main(String[]args)
+{
+System.out.println(printnum(1234));
+/*if(rev)
+	{
+	//System.out.println(num+"  is palindrome");
+		return true;
+	}
+	else
+	{
+		//System.out.println(num+"  is  Not palindrome");
+		return false;
+	}*/
+}
+}

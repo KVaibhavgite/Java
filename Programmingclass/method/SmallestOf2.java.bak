@@ -1,0 +1,21 @@
+/*Design a method which return the return of 2 no.*/
+class SmallestOf2
+{
+public static void smallestOfTwo(int n1,int n2)
+{
+ if(n1<n2)
+	{
+  return n1;
+	}
+   else
+	{
+   return n2;
+	}
+}
+public static void main(String[]args)
+{
+int n1=15,n2=56;
+int smallest=smallestOfTwo(n1,n2);
+System.out.println(smallest+" is smallest");
+}
+}

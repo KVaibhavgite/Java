@@ -1,0 +1,11 @@
+class DecisionIf2
+{
+public static void main(String[]args)
+{
+char ch='F';
+if((ch>='a'&&ch<='z')||(ch>='A'&&ch<='z'))
+{
+System.out.println(ch);
+}
+}
+}

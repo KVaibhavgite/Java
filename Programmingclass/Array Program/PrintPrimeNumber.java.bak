@@ -1,0 +1,21 @@
+class PrintPrimeNumber
+{
+public static void main(String[]args)
+{
+int [] a={11,16,23,14,7,12,8,10};
+for(int i=0;i<a.length;i++)
+{
+int flag=1;//Assuming a[i] is Prime
+for(int j=2;j<a[i];j++)
+{
+if(a[i]%j==0)
+{
+flag=23;
+break;
+}
+}
+if(flag==1)
+System.out.println(a[i]);
+}
+}
+}

@@ -1,0 +1,22 @@
+/*Design a method which accept 2number and prints its the Odd number between 
+those 2numbers using recursion call*/
+class RecursionOddNumber
+{
+public void printOddNumber(int m,int n)
+{
+if(m<n)
+	{
+	printOddNumber(m,n-1);
+	if(n%2!=0)
+{
+		
+System.out.println(n);
+//printEvenNumber(m,n-1);
+}//1 2 3 4 5 6 7 8
+}
+}
+public static void main(String[]args)
+{
+new RecursionOddNumber().printOddNumber(1,8);
+}
+}

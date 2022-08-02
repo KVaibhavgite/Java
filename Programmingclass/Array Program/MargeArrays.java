@@ -1,0 +1,28 @@
+/*Marge arrays:-WAJP,to marge 2 arrays.
+1.int[]a={1,2,3,4,5,6}
+2.int[]b={11,22,33,44,55}
+*/
+class MargeArrays
+{
+public static void main(String[]args)
+{
+int[]a={1,2,3,4,5,6};
+int[]b={11,22,33,44,55};
+int j=0;
+int[]c=new int[a.length+b.length];
+for(int i=0;i<a.length;i++)
+{
+c[j]=a[i];
+j++;
+}
+for(int i=0;i<b.length;i++)
+{
+c[j]=b[i];
+j++;
+}
+for(int i=0;i<c.length;i++)
+{
+System.out.println(c[i]+" ");
+}
+}
+}

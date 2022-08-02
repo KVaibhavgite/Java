@@ -1,0 +1,21 @@
+class Pattern2
+{
+public static void main(String[]args)
+{
+int n=5;
+int n1=1;
+for(int i=1;i<=n;i++)
+{
+	n1='a';
+for(int j=1;j<=n;j++)
+{
+if(n1%2!=0)
+{
+System.out.print(n1++);
+
+}
+}
+System.out.println(" ");
+}
+}
+}

@@ -1,0 +1,17 @@
+/*Recursion for finite number of time*/
+/*Print Hello for n number of times using recursion call*/
+class Recursion2
+{
+public static void main(String[]args)
+{
+demo(5);
+}
+public static void demo(int n)
+{
+if(n>=1)
+{
+demo(n-1);
+}
+System.out.println("Hello");//Hello Hello Hello Hello Hello Hello
+}
+}

@@ -1,0 +1,28 @@
+/* design a method wjhich can accept 4 no. and print the smallest of 4no.*/
+class SmallestOf4
+{
+public static void SmallestOfThree(int n1,int n2,int n3,int n4)
+{
+if(n1<n2&&n1<n3&&n1<n4)
+{
+System.out.println(n1+" is smallest");
+}
+else if(n2<n3&&n2<n4)
+{
+System.out.println(n2+" is smallest");
+}
+else if(n3<n4)
+{
+System.out.println(n3+" is smallest");
+}
+else
+{
+System.out.println(n4+" is smallest");
+}
+}
+public static void main(String[]args)
+{
+int n1=12,n2=55,n3=54,n4=5;
+SmallestOfThree(n1,n2,n3,n4);
+}
+}

@@ -1,0 +1,24 @@
+class PrintPrimeNumber1
+{
+public static void main(String[]args)
+{
+int [] a={11,16,23,14,7,12,8,10};
+for(int i=0;i<a.length;i++)
+{
+if(isprime(a[i]))
+{
+System.out.println(a[i]);
+}
+}
+}
+public static boolean isprime(int num)
+{
+for(int i=2;i<num;i++)
+{
+if(num%i==0)
+return false;
+}
+return true;
+}
+}
+

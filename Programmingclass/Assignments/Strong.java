@@ -1,0 +1,29 @@
+/*Design a method which accept a number and return the factorial of a number*/
+class Fact
+{
+public static int fact(int n)
+{
+int fact=1;
+for(int i=1;i<=n;i++)
+{
+fact=fact*i;
+}
+return fact;
+}
+public static void main(String[]args)
+{ 
+	int num=1;
+System.out.println(6+"!="+fact(num));//120
+if(fact=num)
+{
+System.out.println(" Number is Strong");
+}
+else
+{
+System.out.println(" not Storng Number"); 
+}
+
+//System.out.println(7+"!="+fact(7));//5040
+//System.out.println(8+"!="+fact(8));//40320
+}
+}
